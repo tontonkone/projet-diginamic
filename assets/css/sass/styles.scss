@@ -1,0 +1,36 @@
+/* ******** IMPORT ******************/
+@import './components/mixins';
+@import './components/variable';
+@import './components/typo';
+@import './components/header';
+@import './components/nav';
+@import './components/main';
+@import './components/sidebar';
+@import './components/footer';
+
+
+/* ******** RESET ******************/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 63.5%;
+    line-height: 1.15;
+}
+
+body{
+    color: #071f32;
+    display: flex;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 500;
+}
+
+.container{
+    flex: 1 1;
+    width: 100%;
+}
+/* ******** MEDIA QUERY ******************/

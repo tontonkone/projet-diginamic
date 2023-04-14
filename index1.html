@@ -1,0 +1,392 @@
+
+<ul class="skip-links">
+    <li><a href="#content" class="">Aller au contenu</a></li>
+    <li><a href="#navigation">Aller à la navigation</a></li>
+</ul>
+
+<header class="paris-header" data-controller="header">
+    <div class="paris-header-bar">
+        <div class="paris-header-brand">
+            <h1 class="paris-header-logo">
+                <a class="paris-header-logo-link" href="/">
+                    <svg viewBox="0 0 167 45" role="img" focusable="false">
+                        <title class="logo-horizontal">Ville de Paris</title>
+                        <path
+                            d="M71.11 18.01c0-1.978-1.397-3.491-3.298-3.491h-4.074v6.984h4.074c1.9 0 3.298-1.514 3.298-3.492zm6.208 0c0 5.161-4.152 9.313-9.506 9.313h-4.074v8.536H57.53V8.699h10.282c5.354 0 9.506 4.151 9.506 9.312zm56.867 17.849V8.699h6.209v27.16h-6.209zM113.65 21.902h4.656c1.708 0 3.104-1.6 3.104-3.692s-1.396-3.691-3.104-3.691h-4.656v7.383zm0 5.433v8.524h-6.208V8.699h10.864a9.29 9.29 0 0 1 9.312 9.312c0 3.336-1.929 6.6-4.927 8.01l5.703 9.838h-6.673l-4.892-8.524h-3.179zm-26.463-1.474c1.026.263 2.102.402 3.21.402 1.11 0 2.186-.139 3.212-.402L90.398 15.8l-3.211 10.06zm-1.668 5.224l-1.525 4.774h-6.79l9.236-27.16h7.916l9.232 27.16h-6.79l-1.521-4.774c-1.56.4-3.195.611-4.88.611-1.684 0-3.319-.211-4.878-.611zm70.638-16.877c-1.67 0-2.91.769-2.91 2.057 0 1.728 1.689 2.448 5.91 3.697 5.428 1.606 7.708 3.915 7.708 8.098 0 5.29-4.283 8.342-10.087 8.342-7.392 0-10.46-5.583-10.865-6.713l5.283-2.769c1.179 2.093 3.133 3.434 5.582 3.434 2.193 0 3.88-.608 3.88-2.216 0-2.31-3.732-2.78-5.626-3.454-1.895-.673-7.993-1.85-7.993-8.264 0-5.343 4.524-8.265 9.118-8.265 6.536 0 9.074 4.429 9.932 6.13l-5.18 2.728c-.937-1.352-2.046-2.805-4.752-2.805zM47.75 26.281c.243.003.276.744-.487 2.796-3.315 8.906-11.097 15.208-22.558 15.208-13.814 0-23.347-9.76-24.704-21.668a.37.37 0 0 1 .46-.396l15.607 3.403c.04.104 2.588 7.577 9.904 7.577 7.367 0 12.15-7.526 12.15-15.81 0-8.278-5.164-11.76-6.741-12.981a31815.5 31815.5 0 0 0-13.127 6.565c7.091 4.342 8.372 12.053 6.59 17.35-.502 1.494-1.025 1.627-.932.83.618-5.33-1.6-14.729-14.683-17.758a.248.248 0 0 1-.049-.466L32.797 0c5.27 3.863 8.9 8.787 8.9 17.392 0 9.563-6.453 18.811-15.724 18.811-8.764 0-12.084-7.631-12.128-7.725L5.17 26.856c.106.38 4.112 14.366 21.11 14.24 8.539-.063 16.598-4.65 20.97-14.227.196-.428.334-.59.502-.588z">
+                        </path>
+                    </svg>
+                </a>
+            </h1>
+            <button type="button" class="paris-header-button paris-header-button-search"
+                data-action="header#toggleSearch">
+                <span class="is-only-readable">Recherche</span>
+                <svg class="paris-icon paris-icon-search" role="img">
+                    <use xlink:href="#paris-icon-search"></use>
+                </svg> </button>
+            <button type="button" class="paris-header-button paris-header-button-menu" data-action="header#toggleNav">
+                <span class="is-only-readable">Menu</span>
+                <span class="paris-header-button-menu-line"></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="paris-header-content" data-target="header.content">
+        <nav class="paris-header-nav" id="navigation">
+            <ul class="paris-header-nav-items">
+                <li class="paris-header-nav-item">
+                    <a class="paris-header-nav-link" href="/services">
+                        <svg class="paris-icon paris-icon-arrow-right" role="img">
+                            <use xlink:href="#paris-icon-arrow-right"></use>
+                        </svg> <span class="paris-header-nav-link-text">Services</span>
+                    </a>
+                </li>
+                <li class="paris-header-nav-item">
+                    <a class="paris-header-nav-link" href="/municipalite">
+                        <svg class="paris-icon paris-icon-arrow-right" role="img">
+                            <use xlink:href="#paris-icon-arrow-right"></use>
+                        </svg> <span class="paris-header-nav-link-text">Municipalité</span>
+                    </a>
+                </li>
+                <li class="paris-header-nav-item">
+                    <a class="paris-header-nav-link" href="/participation-citoyenne">
+                        <svg class="paris-icon paris-icon-arrow-right" role="img">
+                            <use xlink:href="#paris-icon-arrow-right"></use>
+                        </svg> <span class="paris-header-nav-link-text">Participez !</span>
+                    </a>
+                </li>
+                <li class="paris-header-nav-item is-red-active">
+                    <a class="paris-header-nav-link" href="/quefaire">
+                        <svg class="paris-icon paris-icon-arrow-right" role="img">
+                            <use xlink:href="#paris-icon-arrow-right"></use>
+                        </svg> <span class="paris-header-nav-link-text">Que faire à Paris ?</span>
+                    </a>
+                </li>
+                <li class="paris-header-nav-item is-jo-blue-active">
+                    <a class="paris-header-nav-link" href="/jeux-2024">
+                        <svg class="paris-icon paris-icon-arrow-right" role="img">
+                            <use xlink:href="#paris-icon-arrow-right"></use>
+                        </svg> <span class="paris-header-nav-link-text">Jeux 2024</span>
+                    </a>
+                </li>
+                <li class="paris-header-nav-item is-search has-icon">
+                    <a class="paris-header-nav-link" data-action="header#toggleSearch" href="/recherche">
+                        <span class="paris-header-nav-link-default">
+                            <svg class="paris-icon paris-icon-search" role="img">
+                                <use xlink:href="#paris-icon-search"></use>
+                            </svg> <span class="paris-header-nav-link-text">Recherche</span>
+                        </span>
+                        <span class="paris-header-nav-link-active">
+                            <svg class="paris-icon paris-icon-arrow-top" role="img">
+                                <use xlink:href="#paris-icon-arrow-top"></use>
+                            </svg> <span class="paris-header-nav-link-text">Fermer</span>
+                        </span>
+                    </a>
+                </li>
+                <li class="paris-header-nav-item is-blue is-far-off has-right-icon has-icon">
+                    <a class="paris-header-nav-link" target="_blank" href="https://moncompte.paris.fr">
+                        <svg class="paris-icon paris-icon-user" role="img">
+                            <use xlink:href="#paris-icon-user"></use>
+                        </svg> <span class="paris-header-nav-link-text">Mon Paris</span>
+                    </a>
+                </li>
+            </ul>
+            <div class="paris-header-mobile-content">
+                <div class="social">
+                    <div class="social-title">
+                        Nous suivre
+                    </div>
+
+                    <ul class="social-links">
+                        <li class="social-item">
+                            <a class="social-link has-icon" target="_blank" href="https://www.facebook.com/paris"> <svg
+                                    class="paris-icon paris-icon-facebook" role="img"
+                                    aria-labelledby="paris-icon-title-e1g8gelc4h" focusable="false">
+                                    <title id="paris-icon-title-e1g8gelc4h">Facebook</title>
+                                    <use xlink:href="#paris-icon-facebook"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link has-icon" target="_blank" href="https://twitter.com/paris"> <svg
+                                    class="paris-icon paris-icon-twitter" role="img"
+                                    aria-labelledby="paris-icon-title-1jvpp7iwdd" focusable="false">
+                                    <title id="paris-icon-title-1jvpp7iwdd">Twitter</title>
+                                    <use xlink:href="#paris-icon-twitter"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link has-icon" target="_blank"
+                                href="https://www.instagram.com/paris_maville/"> <svg
+                                    class="paris-icon paris-icon-instagram" role="img"
+                                    aria-labelledby="paris-icon-title-yfct8q75j1" focusable="false">
+                                    <title id="paris-icon-title-yfct8q75j1">Instagram</title>
+                                    <use xlink:href="#paris-icon-instagram"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link has-icon" target="_blank"
+                                href="https://www.linkedin.com/company/villedeparis/"> <svg
+                                    class="paris-icon paris-icon-linkedin" role="img"
+                                    aria-labelledby="paris-icon-title-51vg4w5krz" focusable="false">
+                                    <title id="paris-icon-title-51vg4w5krz">Linkedin</title>
+                                    <use xlink:href="#paris-icon-linkedin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a class="social-link has-icon" target="_blank"
+                                href="https://www.youtube.com/channel/UC4e6cfcOXGycjRLZbbSwwoA"> <svg
+                                    class="paris-icon paris-icon-youtube" role="img"
+                                    aria-labelledby="paris-icon-title-1a4vhc7bcv" focusable="false">
+                                    <title id="paris-icon-title-1a4vhc7bcv">Youtube</title>
+                                    <use xlink:href="#paris-icon-youtube"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <a class="explore is-on-dark" href="/recherche/lieux">
+                    <span class="explore-title">Dans Paris</span>
+                    <span class="explore-text">Vous recherchez une piscine, un jardin, une bibliothèque, un lieu
+                        culturel... ?</span>
+                    <button type="button" class="paris-button is-red is-on-dark has-icon"> <svg
+                            class="paris-icon paris-icon-location paris-button-icon" role="img">
+                            <use xlink:href="#paris-icon-location"></use>
+                        </svg> <span data-controller="button" data-target="button.textContainer"
+                            class="paris-button-text">
+                            Explorer
+                        </span>
+                    </button>
+                </a>
+            </div>
+        </nav>
+
+        <div data-controller="search-modal" class="paris-search-modal" data-default-search-path="/recherche/infos"
+            data-target="header.searchModal">
+            <div class="paris-search-modal-container" data-target="search-modal.container">
+                <div class="paris-search-modal-heading">
+                    <div class="paris-search-box is-large is-dark">
+                        <div data-target="search-modal.box" data-placeholder=" Rechercher"></div>
+                        <div class="paris-search-box-placeholder-suffixes" hidden="">
+                            <ol class="paris-search-box-placeholder-suffix-items" data-index="everything">
+                                <li class="paris-search-box-placeholder-suffix-item">une information</li>
+                                <li class="paris-search-box-placeholder-suffix-item">une actualité</li>
+                                <li class="paris-search-box-placeholder-suffix-item">une activité</li>
+                                <li class="paris-search-box-placeholder-suffix-item">un lieu</li>
+                                <li class="paris-search-box-placeholder-suffix-item">un évènement</li>
+                                <li class="paris-search-box-placeholder-suffix-item">une sortie</li>
+                                <li class="paris-search-box-placeholder-suffix-item">un service</li>
+                                <li class="paris-search-box-placeholder-suffix-item">une démarche</li>
+                                <li class="paris-search-box-placeholder-suffix-item">une information</li>
+                            </ol>
+                            <style>
+                                .paris-search-box-placeholder-suffix-items[data-index="everything"] {
+                                    display: block;
+                                }
+
+                                .paris-search-box-placeholder-suffix-items[data-index="everything"] {
+                                    animation: 16s cubic-bezier(0.2, 0.7, 0, 1) 3s infinite paris-search-box-placeholder-suffixes-everything;
+                                }
+
+                                @keyframes paris-search-box-placeholder-suffixes-everything {
+                                    0% {
+                                        transform: translateY(1.0rem);
+                                    }
+
+                                    12% {
+                                        transform: translateY(-4.7rem);
+                                    }
+
+                                    24% {
+                                        transform: translateY(-10.4rem);
+                                    }
+
+                                    36% {
+                                        transform: translateY(-16.1rem);
+                                    }
+
+                                    48% {
+                                        transform: translateY(-21.8rem);
+                                    }
+
+                                    60% {
+                                        transform: translateY(-27.5rem);
+                                    }
+
+                                    72% {
+                                        transform: translateY(-33.2rem);
+                                    }
+
+                                    84% {
+                                        transform: translateY(-38.9rem);
+                                    }
+
+                                    100% {
+                                        transform: translateY(-44.6rem);
+                                    }
+                                }
+                            </style>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="paris-search-modal-initial">
+
+                    <div class="paris-search-modal-initial-block not-on-mobile">
+                        <div class="paris-search-modal-initial-title">Dans l'actualité</div>
+                        <div class="paris-search-modal-hit">
+                            <a class="paris-search-modal-hit-link"
+                                href="/pages/paris-accelere-pour-l-accessibilite-des-jeux-olympiques-et-paralympiques-23572">
+                                <div class="paris-search-modal-hit-content">
+                                    <div class="paris-search-modal-hit-title">Paris renforce son accessibilité en vue
+                                        des Jeux olympiques et paralympiques</div>
+                                </div>
+                                <div class="paris-search-modal-hit-image">
+                                    <img alt=""
+                                        src="https://cdn.paris.fr/paris/2023/04/13/large-d992986bcefdcd1038f7aaeab61b91ce.jpg"
+                                        loading="lazy">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="paris-search-modal-hit">
+                            <a class="paris-search-modal-hit-link"
+                                href="/pages/les-jeux-paralympiques-de-paris-2024-en-route-vers-tous-les-records-19785">
+                                <div class="paris-search-modal-hit-content">
+                                    <div class="paris-search-modal-hit-title">J-500 avant les Jeux paralympiques&nbsp;:
+                                        tout ce qu'il faut savoir pour en profiter</div>
+                                </div>
+                                <div class="paris-search-modal-hit-image">
+                                    <img alt=""
+                                        src="https://cdn.paris.fr/paris/2021/11/22/large-11fc2400c90c938808a9c89cda5ac683.jpg"
+                                        loading="lazy">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="paris-search-modal-hit">
+                            <a class="paris-search-modal-hit-link"
+                                href="/pages/solenne-piret-en-route-vers-les-sommets-paralympiques-23415">
+                                <div class="paris-search-modal-hit-content">
+                                    <div class="paris-search-modal-hit-title">Solenne Piret, en route vers les sommets
+                                        paralympiques</div>
+                                </div>
+                                <div class="paris-search-modal-hit-image">
+                                    <img alt=""
+                                        src="https://cdn.paris.fr/paris/2023/03/30/large-acb26e072b65c8f80ad1909ccf255f1b.jpg"
+                                        loading="lazy">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="paris-search-modal-hit">
+                            <a class="paris-search-modal-hit-link"
+                                href="/pages/ilot-fertile-le-premier-quartier-zero-carbone-de-paris-23528">
+                                <div class="paris-search-modal-hit-content">
+                                    <div class="paris-search-modal-hit-title">Îlot fertile, le premier quartier zéro
+                                        carbone de Paris</div>
+                                </div>
+                                <div class="paris-search-modal-hit-image">
+                                    <img alt=""
+                                        src="https://cdn.paris.fr/paris/2023/04/06/large-5b5651328a03940b2767062bbbb97314.jpg"
+                                        loading="lazy">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="paris-search-modal-hit">
+                            <a class="paris-search-modal-hit-link"
+                                href="/pages/avec-ruewatt-les-arts-du-cirque-prennent-la-lumiere-23570">
+                                <div class="paris-search-modal-hit-content">
+                                    <div class="paris-search-modal-hit-title">Avec RueWATT, les arts du cirque et de la
+                                        rue prennent la lumière</div>
+                                </div>
+                                <div class="paris-search-modal-hit-image">
+                                    <img alt=""
+                                        src="https://cdn.paris.fr/paris/2023/04/14/large-4a96fd844ef7a019b08c392b7950dfc0.jpg"
+                                        loading="lazy">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <div class="paris-search-modal-initial-block">
+                        <div class="paris-search-modal-recent">
+                            <div class="paris-search-modal-initial-title is-small">Vos dernières recherches</div>
+                            <ol class="paris-search-modal-recent-items" data-target="search-modal.recent"></ol>
+                        </div>
+                        <div class="paris-search-modal-spotlights">
+                            <div class="paris-search-modal-initial-title is-small">À la une</div>
+                            <ol class="paris-search-modal-recent-items">
+                                <li class="paris-search-modal-recent-item">
+                                    <button class="paris-search-modal-recent-item-button" data-type="spotlight"
+                                        data-action="search-modal#setQuery keydown->search-modal#setQueryWithKeyboard"><svg
+                                            class="paris-icon paris-icon-arrow-left-up" role="img">
+                                            <use xlink:href="#paris-icon-arrow-left-up"></use>
+                                        </svg>rénovation énergétique</button>
+                                </li>
+                            </ol>
+                        </div>
+                    </div>
+
+
+                </div>
+
+                <div class="paris-search-modal-rows" data-target="search-modal.rows">
+                    <div class="paris-search-modal-mairie-row" data-target="search-modal.row"
+                        data-search-index-key="mairies">
+                        <div class="paris-search-modal-hits" data-target="search-modal.hits" tabindex="-1"></div>
+                    </div>
+                    <div class="paris-search-modal-row" data-target="search-modal.row" data-search-index-key="info"
+                        data-search-path="/recherche/infos">
+                        <div class="paris-search-modal-row-title">
+                            <span class="paris-search-modal-row-title-text">Infos</span>
+                            <a href="/recherche/infos" class="paris-search-modal-row-count"></a>
+                        </div>
+                        <div class="paris-search-modal-hits" data-target="search-modal.hits" tabindex="-1"></div>
+                        <div class="paris-search-modal-row-more">
+                            <a class="paris-search-modal-row-more-link" href="/recherche/infos">Toutes les infos</a>
+                        </div>
+                    </div>
+                    <div class="paris-search-modal-row" data-target="search-modal.row" data-search-index-key="places"
+                        data-search-path="/recherche/lieux">
+                        <div class="paris-search-modal-row-title">
+                            <span class="paris-search-modal-row-title-text">Lieux</span>
+                            <a href="/recherche/lieux" class="paris-search-modal-row-count"></a>
+                        </div>
+                        <div class="paris-search-modal-hits" data-target="search-modal.hits" tabindex="-1"></div>
+                        <div class="paris-search-modal-row-more">
+                            <a class="paris-search-modal-row-more-link" href="/recherche/lieux">Tous les lieux</a>
+                        </div>
+                    </div>
+                    <div class="paris-search-modal-row" data-target="search-modal.row" data-search-index-key="sortir"
+                        data-search-path="/recherche/sorties">
+                        <div class="paris-search-modal-row-title">
+                            <span class="paris-search-modal-row-title-text">Sorties</span>
+                            <a href="/recherche/sorties" class="paris-search-modal-row-count"></a>
+                        </div>
+                        <div class="paris-search-modal-hits" data-target="search-modal.hits" tabindex="-1"></div>
+                        <div class="paris-search-modal-row-more">
+                            <a class="paris-search-modal-row-more-link" href="/recherche/sorties">Toutes les sorties</a>
+                        </div>
+                    </div>
+                    <div class="paris-search-modal-row" data-target="search-modal.row"
+                        data-search-index-key="activities" data-search-path="/recherche/activites">
+                        <div class="paris-search-modal-row-title">
+                            <span class="paris-search-modal-row-title-text">Activités</span>
+                            <a href="/recherche/activites" class="paris-search-modal-row-count"></a>
+                        </div>
+                        <div class="paris-search-modal-hits" data-target="search-modal.hits" tabindex="-1"></div>
+                        <div class="paris-search-modal-row-more">
+                            <a class="paris-search-modal-row-more-link" href="/recherche/activites">Toutes les
+                                activités</a>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="paris-search-modal-close" data-action="search-modal#close">Fermer</button>
+            </div>
+        </div>
+
+    </div>
+</header>
