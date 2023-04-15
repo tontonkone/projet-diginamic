@@ -1,52 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />  
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>Ville de Paris</title>
 </head>
+
 <body>
     <!-- start header -->
     <header class="header__top">
         <nav class="nav">
-                <!-- logo image -->
-                <div class="nav__logo">
-                    <img src="./assets/img/svg/logo.svg" alt="logo">
-                </div>
-                <ul class="nav__items">
-                    <li class="nav__items-item">
-                        <a class="nav__items-link" href="#">Services</a>
-                    </li>
-                    <li class="nav__items-item">
-                        <a class="nav__items-link" href="#">Municipalité</a>
-                    </li>
-                    <li class="nav__items-item">
-                        <a class="nav__items-link" href="#">Participez !</a>
-                    </li>
-                    <li class="nav__items-item">
-                        <a class="nav__items-link" href="#">Que faire à Paris</a>
-                    </li>
-                    <li class="nav__items-item">
-                        <a class="nav__items-link" href="#">Jeux 2024</a>
-                    </li>
-                    <li class="nav__items-item">
-                        <a class="nav__items-link" href="#">Recherche</a>
-                </ul>
-                <div class="nav__rigth">
-                    <span>Mon Paris
-                        <a class="nav__rigth-logo" href="#">
-                            <img src="./assets/img/svg/phone.svg" alt="">
-                        </a>
-                    </span>
-                </div>
+            <!-- logo image -->
+            <div class="nav__logo">
+                <h1>paris</h1>
+                <img src="./assets/img/svg/logo.svg" alt="logo">
+            </div>
+            <ul class="nav__items">
+                <li class="nav__items-item">
+                    <a class="nav__items-link" href="#">Services</a>
+                </li>
+                <li class="nav__items-item">
+                    <a class="nav__items-link" href="#">Municipalité</a>
+                </li>
+                <li class="nav__items-item">
+                    <a class="nav__items-link" href="#">Participez !</a>
+                </li>
+                <li class="nav__items-item">
+                    <a class="nav__items-link" href="#">Que faire à Paris</a>
+                </li>
+                <li class="nav__items-item">
+                    <a class="nav__items-link" href="#">Jeux 2024</a>
+                </li>
+                <li class="nav__items-item">
+                    <form>
+                        <input type="search" placeholder=""><span>
+                            <img src="./assets/img/svg/search-solid.svg" alt="">
+                            Recherche</span>
+                    </form>
+
+            </ul>
+            <div class="nav__rigth">
+                <span>Mon Paris</span>
+                <a class="nav__rigth-logo" href="#">
+                    <img src="./assets/img/svg/user.svg" alt="photo d'icon connexion">
+                </a>
+
+            </div>
         </nav>
     </header>
-
-
-    
     <!-- end header -->
+
+    <main>
+        <!-- start container -->
+        <div class="container">
+            <!-- start services -->
+            <section class="container__services">
+                <h2>Accès rapides</h2>
+                <address class="container__adress">
+                    <a class="container__adress-link" href="#">
+                        <img src="./assets/img/svg/local.svg" alt="icon de d'adresse">
+                        Piscine
+                    </a>
+                    <a class="container__adress-link" href="#">
+                        <img src="./assets/img/svg/local.svg" alt="icon de d'adresse">
+                        Parcs,jardins et bois
+                    </a>
+                    <a class="container__adress-link" href="#">
+                        <img src="./assets/img/svg/local.svg" alt="icon de d'adresse">
+                        Mairies d'arrondissement
+                    </a>
+                    <a class="container__adress-link" href="#">
+                        <img src="./assets/img/svg/local.svg" alt="icon de d'adresse">
+                        bibliothèques
+                    </a>
+                    <a class="container__adress-linkred" href="#">
+                        Voir la carte
+                    </a>
+                </address>
+                <div class="container__icon">
+                    <a href="#" class="container__icon-link">
+                        <span class="container__icon-img">
+                            <img src="./assets/img/svg/id-card.svg" alt="image de carte d'identité">
+                        </span>
+                        <span>
+                            Carte d'identité / Passport
+                        </span>
+                    </a>
+                </div>
+            </section>
+            <!-- end service -->
+            <!-- start actualite -->
+            <section class="container__actualite">
+                <h2>Actualité</h2>
+            </section>
+            <!-- end actualite -->
+            <!-- start telex -->
+            <section class="container__telex">
+                <h2>Telex</h2>
+            </section>
+            <!-- end telex -->
+            <!-- end container -->
+        </div>
+    </main>
+
+    <div class="logo__fonds"></div>
 </body>
+
 </html>

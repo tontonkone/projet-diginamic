@@ -1,0 +1,96 @@
+
+.container{
+    display: flex;
+
+    gap: 2rem;
+
+    margin: 0 1rem;
+    margin-top: 10rem;
+
+    text-align: center;
+
+    &__adress{
+        display: flex;
+        margin-bottom: 1.3rem;
+        flex-direction: column;
+        align-content: space-around;
+        justify-content: center;
+        align-items: center;
+
+        &-link{
+            background: #f4f3f3;
+            border: 0;
+            margin: 1rem;
+            padding: 1rem 1.4rem;
+            color:$color-text1;
+            text-transform: uppercase;
+            display: inline-flex;
+            align-items: center;
+            cursor: pointer;
+            text-decoration: none;
+            width: max-content;
+        }
+
+        &-linkred{
+            text-transform: uppercase;
+            text-decoration: none;
+            color: $red;
+        }
+        img{
+            margin: .3rem;
+        }
+        a{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+            font-style: normal;
+            font-size: 1rem;
+            margin-left: 1rem;
+        }
+    }
+    &__icon{
+
+        color: $color-text1;
+        &-link{
+            align-items: center;
+            border-top: 0.2rem solid #f2f2f2;
+            display: flex;
+            margin: 0;
+            padding: 1.3rem 0 1.7rem;
+            position: relative;
+            text-decoration: none;
+        }
+        &-img{
+            align-items: center;
+            background: #f2f2f2;
+            border-radius: 50%;
+            display: flex;
+            flex-shrink: 0;
+            height: 5.6rem;
+            justify-content: center;
+            margin-right: 1.6rem;
+            transition: background-color .2s ease;
+            width: 5.6rem;
+            img{
+                height: 3.2rem;
+                transition: fill .2s ease;
+                width: 3.2rem;
+            }
+            span{
+                color: $color-text1;
+            }
+        }
+    }
+    &__buttons{
+        display: flex;
+        flex-direction: column;
+    }
+    &__services{
+        flex: .5;
+    }
+    &__actualite{
+        flex: 1;
+    }
+    &__telex{
+        flex: .5;
+    }
+}

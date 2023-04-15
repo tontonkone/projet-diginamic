@@ -22,15 +22,22 @@ html{
 
 body{
     color: #071f32;
-    display: flex;
     font-family: Montserrat, sans-serif;
     font-size: 1.6rem;
     font-style: normal;
     font-weight: 500;
 }
-
-.container{
-    flex: 1 1;
-    width: 100%;
+.logo__fonds{
+        background: url(/assets/img/svg/fond.svg) no-repeat 50%;
+        background-size: cover;
+        height: 73.1rem;
+        left: 40%;
+        pointer-events: none;
+        position: absolute;
+        top: -19rem;
+        transform: translateX(-50%);
+        width: 78rem;
+        z-index: 2000;
 }
+
 /* ******** MEDIA QUERY ******************/
