@@ -5,9 +5,21 @@
     gap: 2rem;
 
     margin: 0 1rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
 
     text-align: center;
+    h2{
+        position: absolute;
+        width: inherit;
+        padding: 1rem;
+        background-color: $blueligth;
+        z-index: 100;
+        color: $whrit;
+        transform: skewY(-5deg);
+        font-size: 3rem;
+        margin-top: 2rem;
+    }
+
 
     &__adress{
         display: flex;
@@ -49,10 +61,14 @@
     }
     &__icon{
         text-align: left;
+        width: 80%;
+        margin: auto;
+      
 
         a{
             text-decoration: none;
             color: $color-text1;
+            font-size: 1.3rem;
         }
         &-link{
             align-items: center;
@@ -90,21 +106,69 @@
     }
     &__services{
         flex: .5;
+        article {
+                margin-top: 10rem;
+            }
     }
     &__actualite{
         flex: 1;
+
         &-cards{
             
-            &-card {
-                    color: #071f32;
-                    display: flex;
-                    flex-direction: column;
-                    height: -moz-fit-content;
-                    height: fit-content;
-                    margin-bottom: 2rem;
-                    text-decoration: none;
+        }
+        &-card {
+            position: relative;
+            color: #071f32;
+            display: flex;
+            flex-direction: column;
+            height: -moz-fit-content;
+            height: fit-content;
+            margin-bottom: 2rem;
+            text-decoration: none;
+            width: 80%;
+            margin: 0 auto;
+
+            h4{
+                font-size: 4.2rem;
+                font-weight: 900;
+                line-height: 1.14;
+                margin-bottom: 1rem;
+            }
+            &-box{
+                overflow: hidden;
+                img{
+                    z-index: 9999;
+                };
+            }
             
+            &-box-text {
+
+                background: #fff;
+                padding: 2rem;
+                margin-top: -6rem;
+                margin-left: 8rem;
+                align-items: flex-start;
+                display: flex;
+                flex-direction: column;
+                margin-left: 1rem;
+                text-align: left;
+                z-index: 1;
+                position: absolute;
+                top: 50%;
+                right: 50%;
+                transform: translate(50%, 50%);
+                width: 80%;
+                bottom: -30%;
+                    margin-top: -1.8rem;
+                h3{
+                    background-color: $blueligth;
+                    transform: skewY(-5deg);
+                    padding: 1rem;
+                    margin-top: -4rem;
+                    font-size: 1.3rem;
+                    color:$whrit;
                 }
+            }
         }
 
     }
