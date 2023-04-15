@@ -1,0 +1,26 @@
+
+@media (min-width: 1440px){
+    .container__footer{
+
+        &-center{
+            justify-content: center;
+        }
+    }
+
+}
+
+@media (min-width: 1140px){
+    .container__footer-center-list {
+        justify-content: flex-start;
+    }
+}
+
+
+@media (min-width: 961px) {
+    .container__footer {
+    
+            &-center {
+                justify-content: center;
+            }
+        }
+}

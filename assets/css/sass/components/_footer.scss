@@ -1,0 +1,122 @@
+.container__footer{
+
+    background-color:$whrit;
+    background-image: linear-gradient(180deg, rgba(7, 31, 50, .03) 0, transparent 10rem);
+    width: 100%;
+    display: flex;
+
+    &-box{
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+    }
+    &-top{
+        display: flex;
+       
+        
+    }
+    &-content{
+        display: flex;
+        margin: 4rem 0 0 2rem;
+        max-width: 76rem;
+        width: 76rem;
+        justify-content: center;
+    }
+    &-logo{
+        display: flex;
+        height: 4rem;
+        fill: #071f32;
+        margin: 0;
+        position: relative;
+        text-decoration: none;
+        justify-content: center;
+    }
+    &-select{
+        align-items: center;
+        background: #f2f2f2;
+        display: flex;
+        max-width: 52.5rem;
+        width: fit-content;
+        margin-left: 1.6rem;
+        margin-right: 1.6rem;
+        p{
+            padding: 1.4rem 12rem 1.4rem 2rem;
+        }
+        img{
+            width: 2rem;
+            margin-right: 3rem;
+        }
+    }
+
+    /* footer center */
+
+    &-center{
+
+        display: flex;
+        margin: 4rem 0 5rem;
+        
+        &-list{
+            max-width: 76rem;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            
+            &-item{
+                margin: 3rem;
+                text-align: left;
+                border-right: 0.1rem solid #cecfcf;
+                &:last-child{
+                    border-right: none;
+                }
+                a{
+                    text-decoration: none;
+                }
+            }
+        }
+
+    }
+
+    /* FOOTER SOCIAL */
+
+    &-social{
+        background: #071f32;
+        width: 40%;
+        position: relative;
+        padding: 3rem;
+
+        &-content{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+            max-width: 80rem;
+            color: #f2f2f2;
+        }
+
+        &-form{
+            display: flex;
+            justify-content: center;
+            form {
+                display: flex;
+                flex-direction: row;
+                width: 100%;
+                margin: 1rem 0;
+                button{
+                    padding: 1rem;
+                    font-size: 1.3rem;
+                    background-color: $red;
+                    border: none;
+                    color: $whrit;
+                }
+                input{
+                    border: 0.2rem solid transparent;
+                    color: #000;
+                    font-size: 1.3rem;
+                    height: 4.7rem;
+                    margin-right: 1rem;
+                    padding-left: 1.8rem;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
