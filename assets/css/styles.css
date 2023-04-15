@@ -45,7 +45,7 @@
   /* side right*/
 }
 .nav__logo {
-  margin: 0 2rem;
+  margin: 0;
 }
 .nav__rigth {
   display: flex;
@@ -79,7 +79,7 @@
   height: 100%;
 }
 .nav__items form {
-  background-color: rgb(206, 206, 206);
+  background: #f4f3f3;
   display: flex;
   font-size: 1.5rem;
   padding: 1.5rem;
@@ -173,6 +173,10 @@
   margin-left: 1rem;
 }
 .container__icon {
+  text-align: left;
+}
+.container__icon a {
+  text-decoration: none;
   color: #071f32;
 }
 .container__icon-link {
@@ -182,7 +186,6 @@
   margin: 0;
   padding: 1.3rem 0 1.7rem;
   position: relative;
-  text-decoration: none;
 }
 .container__icon-img {
   align-items: center;
@@ -213,6 +216,15 @@
 }
 .container__actualite {
   flex: 1;
+}
+.container__actualite-cards-card {
+  color: #071f32;
+  display: flex;
+  flex-direction: column;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin-bottom: 2rem;
+  text-decoration: none;
 }
 .container__telex {
   flex: 0.5;

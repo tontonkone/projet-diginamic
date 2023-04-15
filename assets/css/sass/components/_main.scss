@@ -48,8 +48,12 @@
         }
     }
     &__icon{
+        text-align: left;
 
-        color: $color-text1;
+        a{
+            text-decoration: none;
+            color: $color-text1;
+        }
         &-link{
             align-items: center;
             border-top: 0.2rem solid #f2f2f2;
@@ -57,7 +61,6 @@
             margin: 0;
             padding: 1.3rem 0 1.7rem;
             position: relative;
-            text-decoration: none;
         }
         &-img{
             align-items: center;
@@ -70,6 +73,7 @@
             margin-right: 1.6rem;
             transition: background-color .2s ease;
             width: 5.6rem;
+
             img{
                 height: 3.2rem;
                 transition: fill .2s ease;
@@ -89,6 +93,20 @@
     }
     &__actualite{
         flex: 1;
+        &-cards{
+            
+            &-card {
+                    color: #071f32;
+                    display: flex;
+                    flex-direction: column;
+                    height: -moz-fit-content;
+                    height: fit-content;
+                    margin-bottom: 2rem;
+                    text-decoration: none;
+            
+                }
+        }
+
     }
     &__telex{
         flex: .5;
