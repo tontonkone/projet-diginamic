@@ -931,7 +931,7 @@ container de ma page
     justify-content: center;
   }
   .container__actualite-card h3 {
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: 900;
     line-height: 1.14;
     margin-bottom: 1rem;
@@ -944,7 +944,7 @@ container de ma page
     width: 100%;
   }
   .container__telex p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 @media (max-width: 756px) {
@@ -955,7 +955,7 @@ container de ma page
     display: none;
   }
   .container__actualite p {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   .container__footer {
     margin-top: 25rem;
