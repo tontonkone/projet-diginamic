@@ -751,6 +751,14 @@ template {
 .container__footer-center-list-item a {
   text-decoration: none;
 }
+.container__footer-center-list-item-para {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #071f32;
+}
+.container__footer-center-list-item span {
+  color: #e22c3f;
+}
 .container__footer-social {
   background: #071f32;
   width: 40%;
@@ -764,6 +772,9 @@ template {
   text-align: center;
   max-width: 80rem;
   color: #f2f2f2;
+}
+.container__footer-social-content p {
+  font-size: 1.3rem;
 }
 .container__footer-social-form {
   display: flex;
@@ -790,6 +801,21 @@ template {
   margin-right: 1rem;
   padding-left: 1.8rem;
   width: 100%;
+}
+.container__footer-social-icon {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.container__footer-social-icon li {
+  margin: 2rem;
+  font-size: 2rem;
+}
+.container__footer-social-icon li i {
+  color: #fff;
+}
+.container__footer-social a {
+  text-decoration: none;
 }
 
 /* ******** RESET ******************/

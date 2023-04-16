@@ -11,9 +11,7 @@
         width: 70%;
     }
     &-top{
-        display: flex;
-       
-        
+        display: flex;  
     }
     &-content{
         display: flex;
@@ -70,6 +68,14 @@
                 a{
                     text-decoration: none;
                 }
+                &-para{
+                    font-size: 2rem;
+                    font-weight: 600;
+                    color: $color-text1;
+                }
+                span{
+                    color: $red;
+                }
             }
         }
 
@@ -84,6 +90,9 @@
         padding: 3rem;
 
         &-content{
+        p {
+                font-size: 1.3rem;
+            }
             display: flex;
             justify-content: center;
             flex-direction: column;
@@ -117,6 +126,25 @@
                     width: 100%;
                 }
             }
+        }
+        &-icon{
+            display: flex;
+            justify-content: center;
+            list-style: none;
+
+            li{
+                margin: 2rem;
+                font-size: 2rem;
+                i{
+                    color: $whrit;
+                }
+                
+            }
+        }
+        a{
+                      
+            text-decoration: none;
+                          
         }
     }
 }
