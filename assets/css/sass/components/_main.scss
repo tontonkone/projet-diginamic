@@ -74,7 +74,7 @@
         }
         &-link{
             align-items: center;
-            border-top: 0.2rem solid #f2f2f2;
+            border-top: 0.2rem solid $whrite2;
             display: flex;
             margin: 0;
             padding: 1.3rem 0 1.7rem;
@@ -82,7 +82,7 @@
         }
         &-img{
             align-items: center;
-            background: #f2f2f2;
+            background: $whrite2;
             border-radius: 50%;
             display: flex;
             flex-shrink: 0;
@@ -133,9 +133,10 @@
             h4{
                 font-size: 4.2rem;
                 font-weight: 900;
-                line-height: 1.14;
+                line-height: 1;
                 margin-bottom: 1rem;
             }
+            
             &-box{
                 overflow: hidden;
                 img{

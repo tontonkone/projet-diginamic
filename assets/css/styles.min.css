@@ -593,7 +593,7 @@ template {
 .container__actualite-card h4 {
   font-size: 4.2rem;
   font-weight: 900;
-  line-height: 1.14;
+  line-height: 1;
   margin-bottom: 1rem;
 }
 .container__actualite-card-box {
@@ -910,6 +910,9 @@ template {
   .container__services, .container__telex {
     display: none;
   }
+  .container__actualite p {
+    font-size: 1.3rem;
+  }
   .container__footer {
     margin-top: 25rem;
     display: flex;
@@ -922,7 +925,7 @@ template {
     width: 100%;
   }
   .container__telex p {
-    font-size: 1.2rem;
+    font-size: 1.5rem;
   }
 }
 /* ******** RESET ******************/
@@ -964,4 +967,4 @@ body {
 
 /* ******** MEDIA QUERY ******************/
 
-/*# sourceMappingURL=styles.css.map */
+/*# sourceMappingURL=styles.min.css.map */
