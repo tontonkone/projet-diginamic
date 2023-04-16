@@ -827,6 +827,9 @@ template {
   .container__footer-center {
     justify-content: center;
   }
+  .container__telex {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 1140px) {
   .nav {
@@ -896,6 +899,9 @@ template {
     z-index: 9999;
     width: 100%;
   }
+  .container__telex p {
+    font-size: 1.2rem;
+  }
 }
 @media (max-width: 756px) {
   .container {
@@ -914,6 +920,9 @@ template {
   }
   .container__footer-social {
     width: 100%;
+  }
+  .container__telex p {
+    font-size: 1.2rem;
   }
 }
 /* ******** RESET ******************/

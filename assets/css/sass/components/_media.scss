@@ -34,6 +34,9 @@
             justify-content: center;
         }
     }
+    .container__telex{
+        font-size: 1.2rem;
+    }
 
 }
 
@@ -164,6 +167,13 @@
             
                 }
         }
+    .container__telex {
+
+        p{
+
+            font-size: 1.2rem;
+        }
+    }
        
 }
 
@@ -192,5 +202,13 @@
             width: 100%;
         }
        
+    }
+
+    .container__telex {
+
+        p {
+
+            font-size: 1.2rem;
+        }
     }
 }
