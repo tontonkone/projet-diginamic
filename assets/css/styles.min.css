@@ -377,6 +377,7 @@ template {
 }
 
 .nav {
+  height: 100%;
   display: flex;
   align-items: center;
   width: 100%;
@@ -392,8 +393,14 @@ template {
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 100%;
   position: absolute;
   right: 0;
+  margin: auto;
+  cursor: pointer;
+}
+.nav__rigth:hover {
+  border-top: 5px solid #354bcf;
 }
 .nav__rigth span {
   font-size: 2rem;
@@ -452,6 +459,7 @@ template {
 .nav__items-link {
   display: flex;
   align-items: center;
+  padding: 0 2.5rem;
   position: relative;
   background: transparent;
   color: #071f32;
@@ -462,6 +470,9 @@ template {
   line-height: 1.11;
   text-decoration: none;
   transition: none;
+}
+.nav__items-link:hover {
+  border-top: 5px solid #071f32;
 }
 .nav ul li {
   list-style: none;

@@ -1,12 +1,13 @@
 .nav{
+    height: 100%;
 
     .nav__menu {
             display: none;
         }
-    display: flex;
-    align-items: center;
+        display: flex;
+        align-items: center;
 
-    width: 100%;
+        width: 100%;
     
     &__logo{
         margin: 1rem ;
@@ -19,11 +20,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
-
+        height: 100%;
         position: absolute;
         right: 0;
-
-
+        margin: auto;
+        &:hover{
+            border-top: 5px solid $blue;
+        }
+        cursor: pointer;
         span{
             font-size: 2rem;
             font-weight: 600;
@@ -37,7 +41,7 @@
                 width: 15px;
             }
         }
-        a {
+        a {           
             svg {
             fill: $blue
             }
@@ -81,7 +85,6 @@
         &-item{
             align-items: center;
             display: flex;
-
             font-size: 1.8rem;
             height: 100%;
 
@@ -94,7 +97,7 @@
         &-link{
             display: flex;
             align-items: center;
-
+            padding: 0 2.5rem;
             position: relative;
             
             background: transparent;
@@ -110,6 +113,9 @@
             
             text-decoration: none;
             transition: none;
+            &:hover{
+                border-top: 5px solid $color-text1;
+            }
         }
 
     }
