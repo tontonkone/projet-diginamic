@@ -489,9 +489,8 @@ template {
   max-width: 178rem;
   margin: 0 1rem;
   margin-top: 7rem;
-  text-align: center;
 }
-.container h2 {
+.container h1 {
   position: absolute;
   width: inherit;
   padding: 1rem;
@@ -585,9 +584,35 @@ template {
 }
 .container__services article {
   margin-top: 10rem;
+  text-align: center;
 }
 .container__actualite {
   flex: 1;
+}
+.container__actualite-board {
+  position: relative;
+  max-width: 20rem;
+  text-align: left;
+}
+.container__actualite-board img {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+.container__actualite-boards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40rem;
+}
+.container__actualite-boards h2 {
+  position: absolute;
+  bottom: 9rem;
+  background-color: #0082f8;
+  transform: skewY(-5deg);
+  padding: 1rem;
+  font-size: 1.3rem;
+  color: #fff;
+  width: fit-content;
+  margin-left: 2rem;
 }
 .container__actualite-card {
   position: relative;
@@ -601,7 +626,7 @@ template {
   width: 80%;
   margin: 0 auto;
 }
-.container__actualite-card h4 {
+.container__actualite-card h3 {
   font-size: 4.2rem;
   font-weight: 900;
   line-height: 1;
@@ -637,13 +662,13 @@ template {
   bottom: -30%;
   margin-top: -1.8rem;
 }
-.container__actualite-card-box-text h3 {
+.container__actualite-card-box-text h2 {
   background-color: #0082f8;
   transform: skewY(-5deg);
   padding: 1rem;
-  margin-top: -4rem;
   font-size: 1.3rem;
   color: #fff;
+  margin-top: -4rem;
 }
 .container__telex {
   flex: 0.5;
@@ -740,6 +765,7 @@ template {
 .container__footer-center {
   display: flex;
   margin: 4rem 0 5rem;
+  justify-content: center;
 }
 .container__footer-center-list {
   max-width: 76rem;
@@ -868,7 +894,7 @@ template {
     height: 100%;
     line-height: 1;
   }
-  .container__actualite-card h4 {
+  .container__actualite-card h3 {
     font-size: 2.2rem;
     font-weight: 900;
     line-height: 1.14;
@@ -901,8 +927,8 @@ template {
   .container__footer-center {
     justify-content: center;
   }
-  .container__actualite-card h4 {
-    font-size: 2.2rem;
+  .container__actualite-card h3 {
+    font-size: 1.5rem;
     font-weight: 900;
     line-height: 1.14;
     margin-bottom: 1rem;
