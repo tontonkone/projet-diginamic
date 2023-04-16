@@ -1,27 +1,11 @@
-/* ******** IMPORT ******************/
-@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,500&display=swap");
-@media (min-width: 1440px) {
-  .container__footer-center {
-    justify-content: center;
-  }
-}
-@media (min-width: 1140px) {
-  .container__footer-center-list {
-    justify-content: flex-start;
-  }
-}
-@media (min-width: 961px) {
-  .container__footer-center {
-    justify-content: center;
-  }
-}
-/*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
+/* ******** IMPORT ******************/ /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,500&display=swap");
 html {
   line-height: 1.15;
   /* 1 */
@@ -398,6 +382,9 @@ template {
   width: 100%;
   /* side right*/
 }
+.nav .nav__menu {
+  display: none;
+}
 .nav__logo {
   margin: 1rem;
 }
@@ -484,8 +471,11 @@ template {
 }
 
 .container {
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 26fr 55fr 24fr;
+  grid-column-gap: 3rem;
+  margin: 0 3rem 0 1.5rem;
+  max-width: 178rem;
   margin: 0 1rem;
   margin-top: 7rem;
   text-align: center;
@@ -611,6 +601,7 @@ template {
 }
 .container__actualite-card-box img {
   z-index: 9999;
+  width: 100%;
 }
 .container__actualite-card-box-text {
   background: #fff;
@@ -818,6 +809,113 @@ template {
   text-decoration: none;
 }
 
+@media (max-width: 1440px) {
+  .nav {
+    /* side right*/
+  }
+  .nav__rigth span {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #354bcf;
+    margin: 0 1rem;
+  }
+  .nav__items a {
+    font-size: 1.5rem;
+    padding: 0 2rem;
+    line-height: 1;
+  }
+  .container__footer-center {
+    justify-content: center;
+  }
+}
+@media (max-width: 1140px) {
+  .nav {
+    /* side right*/
+  }
+  .nav__rigth span {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #354bcf;
+    margin: 0 1rem;
+  }
+  .nav__items-item form {
+    background: #f4f3f3;
+    display: flex;
+    font-size: 1rem;
+    padding: 1rem;
+  }
+  .nav__items a {
+    font-size: 1.3rem;
+    padding: 0 1rem;
+    height: 100%;
+    line-height: 1;
+  }
+  .container__actualite-card h4 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.14;
+    margin-bottom: 1rem;
+  }
+  .container__actualite-card-box {
+    overflow: hidden;
+  }
+  .container__actualite-card-box img {
+    z-index: 9999;
+    width: 100%;
+  }
+  .container__footer-center-list {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 961px) {
+  .nav {
+    justify-content: space-between;
+    padding: 2rem;
+  }
+  .nav__items, .nav__rigth {
+    display: none;
+  }
+  .container__footer-center {
+    justify-content: center;
+  }
+  .container__actualite-card h4 {
+    font-size: 2.2rem;
+    font-weight: 900;
+    line-height: 1.14;
+    margin-bottom: 1rem;
+  }
+  .container__actualite-card-box {
+    overflow: hidden;
+  }
+  .container__actualite-card-box img {
+    z-index: 9999;
+    width: 100%;
+  }
+}
+@media (max-width: 756px) {
+  .nav .nav__menu {
+    display: block;
+    font-size: 3rem;
+    margin: 0 2rem;
+  }
+  .container {
+    grid-template-columns: 1fr;
+  }
+  .container__services, .container__telex {
+    display: none;
+  }
+  .container__footer {
+    margin-top: 25rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .container__footer-box {
+    width: 100%;
+  }
+  .container__footer-social {
+    width: 100%;
+  }
+}
 /* ******** RESET ******************/
 * {
   margin: 0;
@@ -849,6 +947,10 @@ body {
   transform: translateX(-50%);
   width: 78rem;
   z-index: 2000;
+}
+
+.nav__secondary-menu {
+  display: none;
 }
 
 /* ******** MEDIA QUERY ******************/

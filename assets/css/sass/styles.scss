@@ -1,5 +1,4 @@
 /* ******** IMPORT ******************/
-@import './components/media';
 @import './components/normalize';
 @import './components/mixins';
 @import './components/variable';
@@ -9,6 +8,8 @@
 @import './components/main';
 @import './components/sidebar';
 @import './components/footer';
+@import './components/media';
+
 
 
 
@@ -41,6 +42,12 @@ body{
         transform: translateX(-50%);
         width: 78rem;
         z-index: 2000;
+}
+
+.nav__secondary{
+    &-menu {
+            display: none;
+        }
 }
 
 /* ******** MEDIA QUERY ******************/

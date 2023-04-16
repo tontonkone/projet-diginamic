@@ -1,5 +1,33 @@
 
-@media (min-width: 1440px){
+@media (max-width: 1440px){
+
+
+    .nav {
+
+          /* side right*/
+            &__rigth {
+    
+                span {
+                    font-size: 1.5rem;
+                    font-weight: 600;
+                    color: $blue;
+                    margin: 0 1rem;
+                }
+    
+            }
+    
+            &__items {
+    
+                a {
+                    font-size: 1.5rem;
+    
+                    padding: 0 2rem;
+                    line-height: 1;
+                }
+    
+            }
+    
+        }
     .container__footer{
 
         &-center{
@@ -9,18 +37,160 @@
 
 }
 
-@media (min-width: 1140px){
+@media (max-width: 1140px){
+
+    .nav {
+
+            /* side right*/
+    &__rigth {
+
+        span {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: $blue;
+            margin: 0 1rem;
+        }
+
+    }
+    
+    &__items {
+
+        &-item{
+            form {
+                    background: #f4f3f3;
+                    display: flex;
+                    font-size: 1rem;
+                    padding: 1rem;
+                }
+        }
+    
+                a {
+                    font-size: 1.3rem;
+                    padding: 0 1rem;
+    
+                    height: 100%;
+                    line-height: 1;
+                }
+    
+            }
+    
+        }
+                 .container {
+                     &__actualite {
+        
+        
+                         &-card {
+        
+                             h4 {
+                                 font-size: 2.2rem;
+                                 font-weight: 900;
+                                 line-height: 1.14;
+                                 margin-bottom: 1rem;
+                             }
+        
+                             &-box {
+                                 overflow: hidden;
+        
+                                 img {
+                                     z-index: 9999;
+                                     width: 100%;
+                                 }
+        
+                                 ;
+                             }
+        
+        
+                         }
+        
+                     }
+                 }
     .container__footer-center-list {
         justify-content: flex-start;
     }
 }
 
 
-@media (min-width: 961px) {
+@media (max-width: 961px) {
+
+
+    .nav{
+        justify-content: space-between;
+        padding: 2rem;
+        &__items,
+        &__rigth {
+            display: none;
+        }
+
+    }
     .container__footer {
     
             &-center {
                 justify-content: center;
             }
         }
+
+        .container{
+            &__actualite {
+            
+          
+                    &-card {
+            
+                        h4 {
+                            font-size: 2.2rem;
+                            font-weight: 900;
+                            line-height: 1.14;
+                            margin-bottom: 1rem;
+                        }
+            
+                        &-box {
+                            overflow: hidden;
+            
+                            img {
+                                z-index: 9999;
+                                width: 100%;
+                            }
+            
+                            ;
+                        }
+            
+                        
+                    }
+            
+                }
+        }
+       
+}
+
+@media (max-width: 756px){
+ 
+    .nav{
+    .nav__menu {
+            display: block;
+            font-size: 3rem;
+            margin: 0 2rem;
+        }
+    }
+
+    .container{
+        grid-template-columns: 1fr;
+        &__services,
+        &__telex{
+            display: none;
+        }
+        &__actualite{
+           
+        }
+    }
+    .container__footer{
+        margin-top: 25rem;
+        display: flex;
+        flex-direction: column;
+        &-box{
+            width: 100%;
+        }
+        &-social{
+            width: 100%;
+        }
+       
+    }
 }

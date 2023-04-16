@@ -1,8 +1,10 @@
 
 .container{
-    display: flex;
-
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: 26fr 55fr 24fr;
+    grid-column-gap: 3rem;
+    margin: 0 3rem 0 1.5rem;
+    max-width: 178rem;
 
     margin: 0 1rem;
     margin-top: 7rem;
@@ -138,6 +140,7 @@
                 overflow: hidden;
                 img{
                     z-index: 9999;
+                    width: 100%;
                 };
             }
             
