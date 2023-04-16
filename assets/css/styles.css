@@ -868,6 +868,11 @@ template {
   }
 }
 @media (max-width: 961px) {
+  .nav .nav__menu {
+    display: block;
+    font-size: 3rem;
+    margin: 0 2rem;
+  }
   .nav {
     justify-content: space-between;
     padding: 2rem;
@@ -893,11 +898,6 @@ template {
   }
 }
 @media (max-width: 756px) {
-  .nav .nav__menu {
-    display: block;
-    font-size: 3rem;
-    margin: 0 2rem;
-  }
   .container {
     grid-template-columns: 1fr;
   }
