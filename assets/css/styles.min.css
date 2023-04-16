@@ -616,7 +616,7 @@ template {
 }
 .container__actualite-card-box img:hover {
   transition: all 1s;
-  transform: scale(1.5);
+  transform: scale(1.3);
 }
 .container__actualite-card-box-text {
   background: #fff;
