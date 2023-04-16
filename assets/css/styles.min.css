@@ -614,6 +614,10 @@ template {
   z-index: 9999;
   width: 100%;
 }
+.container__actualite-card-box img:hover {
+  transition: all 1s;
+  transform: scale(1.5);
+}
 .container__actualite-card-box-text {
   background: #fff;
   padding: 2rem;

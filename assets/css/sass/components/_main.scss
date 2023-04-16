@@ -142,7 +142,11 @@
                 img{
                     z-index: 9999;
                     width: 100%;
-                };
+                    &:hover{
+                        transition: all 1s;
+                        transform: scale(1.5);
+                    }
+                }
             }
             
             &-box-text {
